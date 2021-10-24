@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.full-screen {
+	height: 80vh;
+}
+
+.heading {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 0 0 1.5rem 0;
+}
+
+.navbar {
+	padding: 0.5rem 0 !important;
+}
+
+.navbar-collapse {
+	flex-grow: unset !important;
+}
+
+.active {
+	color: #fe5f1e !important;
+}
+
+.order-button {
+	text-decoration: none;
+	padding: 10px 20px;
+	color: white;
+	font-weight: 600;
+	border: 1px solid #fe5f1e;
+	background-color: #fe5f1e;
+}
+
+.outline-order-button {
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #fe5f1e;
+	font-weight: 600;
+	border: 1px solid #fe5f1e;
+	background-color: white;
+}
+
+.outline-order-button:hover {
+	text-decoration: none;
+	background-color: #fe5f1e;
+	border: 1px solid #fe5f1e;
+	color: white;
+}
+
+.link {
+	text-decoration: none;
+	color: rgb(0, 34, 21);
+}
+
+.link:hover {
+	color: rgb(0, 81, 255);
+}
+
+.profile-body {
+	background: #f8f8f8;
+	min-height: calc(100vh - 60px);
+}
+
+.profile-form {
+	margin-top: 1rem;
+	padding: 2rem 1rem;
+	background-color: white;
+}
+
+.cart-body {
+	background: #f8f8f8;
+	min-height: 90vh;
+	vertical-align: middle;
+	display: flex;
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.cart-card {
+	margin: auto;
+	max-width: 1200px;
+	width: 1000px;
+	height: fit-content;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1rem;
+	border: transparent;
+}
+
+.cart {
+	background-color: #fff;
+	padding: 4vh 5vh;
+	border-bottom-left-radius: 1rem;
+	border-top-left-radius: 1rem;
+}
+
+.cart-summary {
+	background-color: #ddd;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	padding: 4vh;
+	color: rgb(65, 65, 65);
+}
+
+p,
+pre {
+	margin-bottom: 0 !important;
+}
+.stream {
+	position: relative;
+}
+.live-label {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	background-color: red;
+	color: white;
+	padding: 1px 5px;
+}
+
+.stream-thumbnail {
+	width: 100%;
+}
+
+.username {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	background-color: black;
+	color: white !important;
+}
